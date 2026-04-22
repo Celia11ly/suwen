@@ -928,6 +928,7 @@ export default function App() {
                     const isImagePlaceholder = item.title === 'image-placeholder';
                     const isInlineGallery = item.title === 'inline-gallery';
                     const isConclusionSmall = item.title === 'conclusion-small';
+                    const isSub = item.title === 'sub';
 
                     if (isDivider) {
                       return (
@@ -982,6 +983,7 @@ export default function App() {
                           isWarning ? 'text-xl text-tcm-seal/80 font-sans italic py-4 bg-tcm-seal/5 px-6 border-l-4 border-tcm-seal' :
                           isHighlightTitle ? 'text-2xl font-bold text-tcm-ink mt-6 mb-1' :
                           isGoal ? 'text-2xl text-tcm-ink/80 font-bold' :
+                          isSub ? 'text-lg text-amber-800/70 italic pl-8 -mt-4 mb-2' :
                           'text-xl md:text-2xl text-tcm-ink/90 leading-relaxed'
                         }`}
                       >

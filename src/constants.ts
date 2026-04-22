@@ -12,12 +12,24 @@ export const REPORT_DATA: SectionData[] = [
         content: '1、不是单纯的问诊或专家咨询平台',
       },
       {
+        title: 'sub',
+        content: '不是「阿福」，不是「点点专家」',
+      },
+      {
         title: '',
         content: '2、不是以解决单次病痛为导向的寻医问药',
       },
       {
+        title: 'sub',
+        content: '不是：我生病了，来素问找医生看病',
+      },
+      {
         title: '',
         content: '3、不是多方求证的病例会诊中心',
+      },
+      {
+        title: 'sub',
+        content: '不是：我有一份病例报告，每个医生说法都不一样，我来素问寻求答案',
       },
       {
         title: 'divider',
@@ -25,11 +37,19 @@ export const REPORT_DATA: SectionData[] = [
       },
       {
         title: '',
-        content: '4、定位：提供可落地的个人健康调理方案',
+        content: '定位：提供可落地的个人健康调理方案',
+      },
+      {
+        title: 'sub',
+        content: '而是：素问上有很多让我更加健康的方案，我来看看有什么适合我的',
       },
       {
         title: '',
-        content: '5、目标：引导用户进行生活方式的干预与重塑',
+        content: '目标：引导用户进行生活方式的干预与重塑',
+      },
+      {
+        title: 'sub',
+        content: '而是：我想改改我不健康的生活方式，让素问给我制定个调理方案',
       },
       {
         title: 'divider',
@@ -306,7 +326,7 @@ export const REPORT_DATA: SectionData[] = [
       },
       {
         title: 'ChefHat',
-        content: '定制化食疗方案\根据用户需求匹配和定制餐谱，让日常饮食成为系统性的调理手段。',
+        content: '定制化食疗方案\n根据用户需求匹配和定制餐谱，让日常饮食成为系统性的调理手段。',
         imageUrl: '/shiliao.png',
       },
       {
@@ -317,18 +337,18 @@ export const REPORT_DATA: SectionData[] = [
       {
         title: 'BookOpen',
         content: '大家通识：基于名家体系的调养建议\n将专家知识体系拆解为具备专业医理与可操作性的健康指南。',
-        imageUrl: '/expert.png',
+        imageUrl: '/wenzhang.png',
       },
       {
         title: 'MessageSquare',
         content: 'AI 个人健康调理助手\n通过智能对话，整合测评、习惯、食疗等维度，输出具备专业支撑的调理全策。',
         type: 'highlight',
-        imageUrl: '/suwen.png',
+        imageUrl: '/agent.jpg',
       },
       {
         title: 'ShoppingBag',
         content: '「素问严选」配套供应\n基于调理方案的配套产品供应。在方案中一键获取严选的中药器物与优质食材。',
-        imageUrl: '/product.png',
+        imageUrl: '/haowu.jpg',
       }
     ]
   },
@@ -447,12 +467,12 @@ export const REPORT_DATA: SectionData[] = [
       {
         title: '子品牌',
         content: '素问严选\n配套调理方案的产品供应平台，为您精选高品质健康好物。',
-        imageUrl: '/20260420-002322.jpeg',
+        imageUrl: '',
       },
       {
         title: '子品牌',
         content: '素问个人助手\n您的专业 AI 健康顾问，提供即时、精准的调理指导建议。',
-        imageUrl: '/suwen.png',
+        imageUrl: '',
       }
     ]
   },
@@ -475,7 +495,7 @@ export const REPORT_DATA: SectionData[] = [
     items: [
       {
         title: '网店开设与试刊',
-        content: '· 完成「素问」品牌天猫/微信店开设\n· 完成首批5款核心商品试上架',
+        content: '· 完成「素问」品牌天猫/微信店开设\n· 完成全媒体官方账号开设\n· 完成首批5款核心商品试上架',
         period: '4月份',
         type: 'milestone'
       },
@@ -487,7 +507,7 @@ export const REPORT_DATA: SectionData[] = [
       },
       {
         title: '品牌盛典与大促执行',
-        content: '· 启动「素问」专家年度论证会\n· 举办品牌夏季新品发布会\n· 全力执行618大促销售计划',
+        content: '· 启动「素问」专家年度论证会\n· 举办品牌夏季新品发布会\n· 全力执行618大促销售计划\n· 引入更多专家建立专家智库',
         period: '6月份',
         type: 'milestone'
       }
@@ -506,13 +526,13 @@ export const REPORT_DATA: SectionData[] = [
       },
       {
         title: '引流验证与初期成交',
-        content: '· 全媒体曝光：月累计30万播放/阅读\n· 粉丝增长：月新增1万\n· 流量转化：进店UV ≥5000，GMV 2-4万\n· 转化指标：转化率 ≥1.5%，小程序注册 ≥500\n· 转化路径：曝光 → 进店 → 领券首单 → 成交',
+        content: '· 全媒体曝光：月累计30万播放/阅读\n· 粉丝增长：月新增1万\n· 流量转化：进店UV ≥5000，GMV 2-4万\n· 转化指标：转化率 ≥1.5%，小程序注册 ≥500\n· 转化路径：曝光 → 进店 → 领券首单 → 成交\n· BD：完成10位专家入驻',
         period: '5月份',
         type: 'goal'
       },
       {
         title: '规模化爆发与闭环建立',
-        content: '· 全媒体爆发：累计100万播放/阅读\n· 爆款打造：全平台互动超5000内容 ≥10条\n· 业务核心：GMV 15-25万，复购 ≥15%，ROI ≥1.5\n· 私域锁客：小程序注册 ≥3000，会员兑换 ≥30%\n· 闭环路径：内容 → 成交 → 锁客 → 复购',
+        content: '· 全媒体爆发：累计100万播放/阅读\n· 爆款打造：全平台互动超5000内容 ≥10条\n· 业务核心：GMV 15-25万，复购 ≥15%，ROI ≥1.5\n· 私域锁客：小程序注册 ≥3000，会员兑换 ≥30%\n· 闭环路径：内容 → 成交 → 锁客 → 复购\n· BD：完成30位专家入驻',
         period: '6月份',
         type: 'goal'
       }
