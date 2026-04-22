@@ -5,7 +5,7 @@ export const REPORT_DATA: SectionData[] = [
     id: 'positioning',
     title: '定位讨论',
     layout: 'typography',
-    sideImage: '/suwen.png',
+    sideImage: './suwen.png',
     items: [
       {
         title: '',
@@ -145,7 +145,7 @@ export const REPORT_DATA: SectionData[] = [
       {
         title: 'inline-gallery',
         content: '视频号运营数据及矩阵规划图',
-        images: ['/xiaoyaolu.png', '/comment.png', '/data.jpg']
+        images: ['./xiaoyaolu.png', './comment.png', './data.jpg']
       },
       {
         title: 'highlight-title',
@@ -158,7 +158,7 @@ export const REPORT_DATA: SectionData[] = [
       {
         title: 'inline-gallery',
         content: '健康测试量表系统原型及逻辑图（MBTI 启发系列）',
-        images: ['/MBTI0.jpg', '/MBTI1.png', '/MBTI2.png']
+        images: ['./MBTI0.jpg', './MBTI1.png', './MBTI2.png']
       },
       {
         title: 'highlight-title',
@@ -172,7 +172,7 @@ export const REPORT_DATA: SectionData[] = [
       {
         title: 'inline-gallery',
         content: '喜纯调理方案产品包（7天/14天）示意图',
-        images: ['/xichun1.jpg', '/xichun2.png', '/xichun3.png', '/xichun4.png']
+        images: ['./xichun1.jpg', './xichun2.png', './xichun3.png', './xichun4.png']
       },
       {
         title: 'divider',
@@ -317,38 +317,38 @@ export const REPORT_DATA: SectionData[] = [
       {
         title: 'ClipboardList',
         content: '身心状态专业评估\n基于专业逻辑的量化测评，多维度捕捉身心差异，实现准确的自我认知。',
-        imageUrl: '/celiang.png',
+        imageUrl: './celiang.png',
       },
       {
         title: 'Activity',
         content: '健康习惯养成计划\n将目标拆解为每日轻量化任务，通过反馈机制辅助习惯锁定。',
-        imageUrl: '/jihua.png',
+        imageUrl: './jihua.png',
       },
       {
         title: 'ChefHat',
         content: '定制化食疗方案\n根据用户需求匹配和定制餐谱，让日常饮食成为系统性的调理手段。',
-        imageUrl: '/shiliao.png',
+        imageUrl: './shiliao.png',
       },
       {
         title: 'FileText',
         content: '家庭健康数字档案\n一站式记录家庭健康轨迹，构建系统化的数字档案，支撑长期健康决策。',
-        imageUrl: '/dangan.png',
+        imageUrl: './dangan.png',
       },
       {
         title: 'BookOpen',
         content: '大家通识：基于名家体系的调养建议\n将专家知识体系拆解为具备专业医理与可操作性的健康指南。',
-        imageUrl: '/wenzhang.png',
+        imageUrl: './wenzhang.png',
       },
       {
         title: 'MessageSquare',
         content: 'AI 个人健康调理助手\n通过智能对话，整合测评、习惯、食疗等维度，输出具备专业支撑的调理全策。',
         type: 'highlight',
-        imageUrl: '/agent.jpg',
+        imageUrl: './agent.jpg',
       },
       {
         title: 'ShoppingBag',
         content: '「素问严选」配套供应\n基于调理方案的配套产品供应。在方案中一键获取严选的中药器物与优质食材。',
-        imageUrl: '/haowu.jpg',
+        imageUrl: './haowu.jpg',
       }
     ]
   },
@@ -360,22 +360,22 @@ export const REPORT_DATA: SectionData[] = [
       {
         title: 'ClipboardList',
         content: '身心状态测评内容管线\n基于专家评估逻辑，自动生成多维度、互动式的身心状态量表。',
-        imageUrl: '/survey.png',
+        imageUrl: './survey.png',
       },
       {
         title: 'Activity',
         content: '健康习惯养成计划管线\n将健康目标智能拆解为可落地的每日打卡任务与习惯建议。',
-        imageUrl: '/habit.png',
+        imageUrl: './habit.png',
       },
       {
         title: 'ChefHat',
         content: '定制食疗方案生产管线\n结合症候与真实需求，生产具有个性化调理属性的食疗建议。',
-        imageUrl: '/meal.png',
+        imageUrl: './meal.png',
       },
       {
         title: 'BookOpen',
         content: '大家通识：专家级生活化内容管线\n高效生产由权威医理支撑、具备显著实践效果的视频与图文经验。',
-        imageUrl: '/expert.png',
+        imageUrl: './expert.png',
       }
     ]
   },
@@ -462,7 +462,7 @@ export const REPORT_DATA: SectionData[] = [
       {
         title: '主品牌',
         content: '素问\n个人健康生活养成顾问，深度整合中医智慧与现代生活方式。',
-        imageUrl: '/20260420-002312.jpeg',
+        imageUrl: './20260420-002312.jpeg',
       },
       {
         title: '子品牌',
@@ -482,10 +482,10 @@ export const REPORT_DATA: SectionData[] = [
     description: '横向滑动查看，点击可放大。',
     layout: 'horizontal-gallery',
     items: [
-      { title: '视觉方案 1', content: '现代康养包装方案', imageUrl: '/20260420-002322.jpeg' },
-      { title: '视觉方案 2', content: '节气食疗包装方案', imageUrl: '/20260420-002326.jpeg' },
-      { title: '视觉方案 3', content: '严选好物视觉呈现', imageUrl: '/20260420-002331.jpeg' },
-      { title: '视觉方案 4', content: '全案整合视觉设计', imageUrl: '/20260420-002335.jpeg' },
+      { title: '视觉方案 1', content: '现代康养包装方案', imageUrl: './20260420-002322.jpeg' },
+      { title: '视觉方案 2', content: '节气食疗包装方案', imageUrl: './20260420-002326.jpeg' },
+      { title: '视觉方案 3', content: '严选好物视觉呈现', imageUrl: './20260420-002331.jpeg' },
+      { title: '视觉方案 4', content: '全案整合视觉设计', imageUrl: './20260420-002335.jpeg' },
     ]
   },
   {
