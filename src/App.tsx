@@ -32,7 +32,7 @@ const Seal = ({ text }: { text: string }) => {
   if (text === '素问') {
     return (
       <img 
-        src="/20260420-002312.jpeg" 
+        src="./20260420-002312.jpeg" 
         alt="素问 Logo" 
         className="h-20 w-auto object-contain brightness-110" 
         referrerPolicy="no-referrer" 
